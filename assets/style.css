@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,12 +12,12 @@ header{
     background-color: #4B93BF;
 }
 
-header div{
+header div {
     display: flex;
     align-items: center;
 }
 
-header ul{
+header ul {
     font-size: 28px;
     display: flex;
     list-style: none;
@@ -25,7 +25,7 @@ header ul{
     width: 40vw;
 }
 
-.primeira_sessao{
+.primeira_Sessao {
     height: 54vh;
     font-size: 20px;
     display: flex;
@@ -34,12 +34,12 @@ header ul{
 
 }
 
-.primeira_sessao div{
+.primeira_Sessao div {
     width: 40vw;
     color: #0F468C;
 }
 
-.segunda_sessao{
+.segunda_Sessao {
     height: 42vh;
     display: flex;
     align-items: center;
@@ -47,6 +47,53 @@ header ul{
     color: white;
     background-color: #4B93BF;
 }
-.segunda_sessao h2{
+.segunda_Sessao h2 {
     width: 36vw;
+    word-spacing: 8px;
+}
+
+.terceira_Sessao {
+    background-color: #E4EEF1;
+}
+
+.terceira_Sessao figure {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.terceira_Sessao img {
+    width: 22vw;
+    height: 55vh;
+}
+
+.urso {
+    padding-top: 14px;
+}
+
+.quarta_Sessao {
+    background-color: #4B93BF;
+}
+
+.redes {
+    height: 7vh;
+}
+
+.quinta_Sessao {
+    display: flex;
+    justify-content: center;
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #4B93BF;
+    
+}
+
+footer p {
+    display: flex;
+    color: #E4EEF1;
 }
